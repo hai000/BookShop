@@ -16,7 +16,7 @@ namespace BookshopAPI.Controllers
         public async Task<IActionResult> getAllCategorie()
         {
             return Ok(await myDbContext.Categories.ToListAsync());
-        }  
+        }
 
     }
 }

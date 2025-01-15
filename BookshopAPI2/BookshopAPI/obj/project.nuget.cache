@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "glHp6LuFp0s=",
+  "dgSpecHash": "vtDsJ42k3Es=",
   "success": true,
-  "projectFilePath": "G:\\Code\\C#\\Book\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj",
+  "projectFilePath": "G:\\Code\\C#\\BookShop\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GIGABYTE\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\GIGABYTE\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",

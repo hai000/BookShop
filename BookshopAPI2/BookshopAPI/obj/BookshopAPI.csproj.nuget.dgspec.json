@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Code\\C#\\Book\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj": {}
+    "G:\\Code\\C#\\BookShop\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj": {}
   },
   "projects": {
-    "G:\\Code\\C#\\Book\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj": {
+    "G:\\Code\\C#\\BookShop\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Code\\C#\\Book\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj",
+        "projectUniqueName": "G:\\Code\\C#\\BookShop\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj",
         "projectName": "BookshopAPI",
-        "projectPath": "G:\\Code\\C#\\Book\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj",
+        "projectPath": "G:\\Code\\C#\\BookShop\\BookshopAPI2\\BookshopAPI\\BookshopAPI.csproj",
         "packagesPath": "C:\\Users\\GIGABYTE\\.nuget\\packages\\",
-        "outputPath": "G:\\Code\\C#\\Book\\BookshopAPI2\\BookshopAPI\\obj\\",
+        "outputPath": "G:\\Code\\C#\\BookShop\\BookshopAPI2\\BookshopAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\vscodeC+\\Shared\\NuGetPackages"
