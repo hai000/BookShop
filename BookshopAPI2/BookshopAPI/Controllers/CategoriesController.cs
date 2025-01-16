@@ -15,8 +15,29 @@ namespace BookshopAPI.Controllers
         [HttpGet("getAll")]
         public async Task<IActionResult> getAllCategorie()
         {
-            return Ok(await myDbContext.Categories.ToListAsync());
+            return Ok(responeMessage.response200(await myDbContext.Categories.ToListAsync()));
         }
-
+        [HttpGet("getByProduct/productId:{productId}")]
+        public async Task<IActionResult> getByProduct(long productId)
+        {
+            var product = await myDbContext.Products.SingleOrDefaultAsync(x => x.id == productId);
+            if (product == null)
+            {
+                return Ok(responeMessage.response400(null, "Product id không chính xác"));
+            }
+            else
+            {
+                var product_Category = await myDbContext.Product_Categories.SingleOrDefaultAsync(x => x.productId == productId);
+                var category = await myDbContext.Categories.SingleOrDefaultAsync(x => x.id == product_Category.categoryId);
+                if (category == null)
+                {
+                    return Ok(responeMessage.response400);
+                }
+                else
+                {
+                    return Ok(responeMessage.response200(category));
+                }
+            }
+        }
     }
 }
